@@ -61,9 +61,12 @@ Then play with the source files under the repo's demo* directories.
 
 ## Demo01: Render JSX
 
-[demo](http://ruanyf.github.io/react-demos/demo01/) / [source](https://github.com/ruanyf/react-demos/blob/master/demo01/index.html)
+[demo](http://ruanyf.github.io/react-demos/demo01/) /
+[source](https://github.com/ruanyf/react-demos/blob/master/demo01/index.html)
 
-The template syntax in React is called [JSX](http://facebook.github.io/react/docs/displaying-data.html#jsx-syntax). It is allowed in JSX to put HTML tags directly into JavaScript codes. `ReactDOM.render()` is the method which translates JSX into HTML, and renders it into the specified DOM node.
+The template syntax in React is called [JSX](http://facebook.github.io/react/docs/displaying-data.html#jsx-syntax).
+It is allowed in JSX to put HTML tags directly into JavaScript codes. `ReactDOM.render()` is the method which
+translates JSX into HTML, and renders it into the specified DOM node.
 
 ```js
 ReactDOM.render(
@@ -72,9 +75,11 @@ ReactDOM.render(
 );
 ```
 
-Attention, you have to use `<script type="text/babel">` to indicate JSX codes, and include `browser.min.js`, which is a [browser version](https://babeljs.io/docs/usage/browser/) of Babel and could be get inside a [babel-core@5](https://www.npmjs.com/package/babel-core) npm release, to actually perform the transformation in the browser.
+Attention, you have to use `<script type="text/babel">` to indicate JSX codes, and include `browser.min.js`,
+which is a [browser version](https://babeljs.io/docs/usage/browser/) of Babel and could be gotten as a
+[babel-core@5](https://www.npmjs.com/package/babel-core) npm release, to actually perform the transformation in the browser.
 
-Before v0.14, React use `JSTransform.js` to translate `<script type="text/jsx">`. It has been deprecated ([more info](https://facebook.github.io/react/blog/2015/06/12/deprecating-jstransform-and-react-tools.html)).
+Before v0.14, React used `JSTransform.js` to translate `<script type="text/jsx">`. It has been deprecated ([more info](https://facebook.github.io/react/blog/2015/06/12/deprecating-jstransform-and-react-tools.html)).
 
 ## Demo02: Use JavaScript in JSX
 
